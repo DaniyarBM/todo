@@ -5,16 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Добавление книги</title>
+    <link rel="stylesheet" href="{% static 'styles/index.css' %}" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 <body>
-    <br>
-    <br>
-    <h3 class="title1">Добавление книги</h3>
     <div class="container">
         <form action="{% url 'book-add' %}" method="POST">
             {% csrf_token %}
             <div class="mb-3">
+                <h3 class="title">Добавление книги</h3>
             <label class="form-label">Заголовок</label>
             <input type="text" class="form-control" placeholder='Напишите заголовок книги' name="book-title">
             </div>
