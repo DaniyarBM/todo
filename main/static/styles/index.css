@@ -20,7 +20,7 @@ section{
 .create_input{
     padding: 12px 5px;
     font-size: 18px;
-    width: 80%;
+    width: 50%;
 }
 
 .create_button{
@@ -36,18 +36,18 @@ section{
 }
 
 .create_button:active{
-    border: 1px solid #CE93D8;
-    box-shadow: 2px 2px 5px 3px #fce4ec;
+    border: 1px solid #cc0aee;
+    box-shadow: 2px 2px 5px 3px #e90e57;
 }
 
-.main_page {
-    border: 1px solid black;
+.main_page:active {
+    border: 1px solid gray;
     text-decoration: none;
     color: yellow;
-    padding: 4px;
+    padding: 14px;
     border-radius: 0.25rem;
-    background-color: black;
-  }
+    background-color: darkgray;
+}
 
 .todo_container{
     padding: 30px 20px;
@@ -123,7 +123,15 @@ section{
 
 .title{
     font-size: 30px;
-    color: red;
+    color: black;
+    font-weight: normal;
+    background-color: darkorange;
+    text-align: center;
+}
+
+.title1{
+    font-size: 30px;
+    color: black;
     font-weight: normal;
     background-color: darkorange;
     text-align: center;

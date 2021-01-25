@@ -10,7 +10,7 @@
 <body>
     <div class='container'>
         <br>
-        <p><a href="{% url 'book-add' %}" class="btn btn-secondary">Добавить книгу</a> <a href="{% url 'home' %} " class="btn btn-dark">Вернуться на главную страницу</a></p>
+        <p><a href="{% url 'add-books' %}" class="btn btn-secondary">Добавить книгу</a> <a href="{% url 'home' %} " class="btn btn-dark">Вернуться на главную страницу</a></p>
         {% for book in book_list %}
             <hr>
                 <div class="

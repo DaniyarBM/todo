@@ -27,7 +27,9 @@
                 placeholder="Введите название продукта"
                 name="todo_text" 
             />
-            <button class="create_button">Добавить</button> <a href="{% url 'home' %}" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Вернуться</a> <!--class="main_page"-->
+            <button class="create_button">Добавить</button>
+            <!-- <a href="{% url 'home' %} " class="btn btn-dark">Вернуться на главную страницу</a> -->  <!-- Pochemu ne srabatyvaet dannyi skript??? -->
+            <a href="{% url 'home' %}" class="main_page">Вернуться на главную страницу</a>
           </form>
         </div>
 
