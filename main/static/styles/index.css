@@ -120,3 +120,11 @@ section{
     margin: 0 5px;
     cursor: pointer;
 }
+
+.title1{
+    font-size: 30px;
+    color: red;
+    font-weight: normal;
+    background-color: darkorange;
+    text-align: center;
+}
